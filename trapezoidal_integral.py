@@ -4,7 +4,6 @@ from math import sin
 # >>> 0
 # -----------
 from math import pi
-
 import math
 
 def trapezoidal_integration(f, a=0, b=1, n=100):
