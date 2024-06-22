@@ -33,7 +33,7 @@ a2, b2, n2 = 0, 1, 100
 integral2 = trapezoidal_integration(f2, a2, b2, n2)
 print(f"⑵: {integral2}")
 
-# (3)  g
+# (3)
 def f3(x):
     return math.sqrt(math.pi) * math.exp(-x**2)
 
