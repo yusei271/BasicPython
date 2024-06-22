@@ -7,7 +7,7 @@ from math import pi
 
 import math
 
-def trapezoidal_integration(f, a, b, n):
+def trapezoidal_integration(f, a=0, b=1, n=100):
     
     h = (b - a) / n
     integral = 0.5 * (f(a) + f(b))
